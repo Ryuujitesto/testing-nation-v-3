@@ -2,7 +2,7 @@
   {
 		"name": "Fortress",
 		"unitType": "Armored",
-    "replaces": "Light Buggy",
+   		"replaces": "Light Buggy",
 		"uniqueTo": "Star Alliance",
 		"movement": 3,
 		"strength": 20,
@@ -16,7 +16,7 @@
 			"[+50]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Infantry] units>",
 			"Consumes [1] [Titanium]",
-		  "Never appears as a Barbarian unit"
+		  	"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 10,
 		"attackSound": "machinegun",
