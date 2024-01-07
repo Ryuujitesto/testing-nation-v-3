@@ -10,11 +10,7 @@
 		"gold": 2,
 		"culture": 2,
 		"percentStatBonus": { "production": 10 },
-	    	"percentStatBonus": { "science": 5 },
-    		"percentStatBonus": { "gold": 5 },
-   		"percentStatBonus": { "food": 10 },
-    		"percentStatBonus": { "culture": 5 },
-		"uniques": [
+	    	"uniques": [
 			"Provides [1] [Digital Storage Space]",
       			"[-25]% construction time for [All] improvements",
      			"[-25]% Culture cost of natural border growth [in this city]",
