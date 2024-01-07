@@ -7,7 +7,7 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 100,
-		"requiredTech": "Next-Gen Armaments",
+		"requiredTech": "Portable Power Sources",
 		"upgradesTo": "Colonial Armor",
 		"uniques": [
 			"Can move after attacking",
