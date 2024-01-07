@@ -3,6 +3,7 @@
 		"name": "HAC Building",
    		"uniqueTo": "Star Alliance",
     		"isNationalWonder": true,
+		"cost": 1,
 		"production": 3,
 		"science": 2,
     		"food": 3,
