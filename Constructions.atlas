@@ -445,7 +445,7 @@ BuildingIcons/Houyi Ballistic Defense System
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Hyperspace Augur
+BuildingIcons/HAC Building
   rotate: false
   xy: 760, 976
   size: 100, 100
