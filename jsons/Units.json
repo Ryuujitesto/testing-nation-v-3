@@ -22,12 +22,10 @@
 		"hurryCostModifier": 10,
 		"attackSound": "machinegun",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Fortress",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
