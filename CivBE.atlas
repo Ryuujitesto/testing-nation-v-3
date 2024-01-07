@@ -270,7 +270,7 @@ TileSets/FantasyHex/Units/Svyatogor Crawler
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Valente APC
+TileSets/FantasyHex/Units/Fortress
   rotate: false
   xy: 1192, 412
   size: 32, 28
@@ -312,7 +312,7 @@ UnitIcons/Svyatogor Crawler
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Valente APC
+UnitIcons/Fortress
   rotate: false
   xy: 976, 160
   size: 100, 100
