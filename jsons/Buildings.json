@@ -1,1 +1,29 @@
-s
+[
+	{
+		"name": "HAC Building",
+    "uniqueTo": "Star Alliance",
+    "isNationalWonder": true,
+		"production": 3,
+		"science": 2,
+    "food": 3,
+		"gold": 2,
+		"culture": 2,
+		"percentStatBonus": { "production": 10 },
+    "percentStatBonus": { "science": 5 },
+    "percentStatBonus": { "gold": 5 },
+    "percentStatBonus": { "food": 10 },
+    "percentStatBonus": { "culture": 5 },
+		"uniques": [
+			"Provides [1] [Digital Storage Space]",
+      "[-25]% construction time for [All] improvements",
+      "[-25]% Culture cost of natural border growth [in this city]",
+      "[+25]% Production when constructing [All] buildings [in this city]",
+      "[+25]% Production when constructing [All] units [in this city]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Hivemind Automation Complex Building is a series of automation complex building connected to Hivemind super computer. HAC building capable to manage and improve Star Alliance infrastructure efficiently than any human."
+			}
+		]
+	}
+]
