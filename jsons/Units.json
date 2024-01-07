@@ -12,6 +12,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
+			"Can see invisible [Stealth Infantry] units",
 			"[+20]% Strength bonus for [Military] units within [2] tiles",
 			"[+50]% Strength <vs [Armored] units>",
 			"[+100]% Strength <vs [Infantry] units>",
