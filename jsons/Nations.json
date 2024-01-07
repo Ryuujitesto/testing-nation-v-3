@@ -1,1 +1,67 @@
-s
+[
+  {
+		"name": "Star Alliance",
+		"leaderName": "Dawn Sol",
+		"adjective": ["Alliance"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Greetings, Dawn, leader of Alliance of New Federation. Since the begining of The alliance, from the humble refugee to the leader of many federation people, you have lead people the new hope and ever greater future. Now after the collapse of earth, you have lead you people to the space and arrive at this new world.",
+		"startIntroPart2": "Dawn, there is new hope and glory for our people in this new planet. let us show the world, The alliance power and glory.",
+
+		"declaringWar": "you have go beyond our bottom limit, now you will face our might.",
+		"attacked": "This is declaration of war, you will regret this.",
+		"defeated": "The impossible has occurred. The alliance has fallen into ruin...",
+		"introduction": "Greetings. I am Dawn, leader of Alliance of New Federation. I hope we can have good future together.",
+
+		"neutralHello": "Greetings. State your business.",
+		"hateHello": "State your business or vacate this frequency.",
+
+		"tradeRequest": "Perhaps some trade would be in order.",
+
+		"outerColor": [230, 243, 245],
+		"innerColor": [22, 116, 204],
+		"favoredReligion": "Astral Pantheon",
+		"uniqueName": "The Alliance",
+		"uniques": ["Each city founded increases culture cost of policies [50]% less than normal",
+                "[-50]% Culture cost of adopting new Policies <when not at war>"],
+		"cities": [
+			"Alpha Station",
+			"Beta Station",
+			"Gamma Station",
+			"Delta Station",
+			"Epsilon Station",
+			"Zeta Station",
+			"Eta Station",
+			"Theta Station",
+			"Iota Station",
+			"Kappa Station",
+			"Lambda Station",
+			"Mu Station",
+			"Nu Station",
+			"Xi Station",
+			"Omicron Station",
+			"Pi Station",
+			"Rho Station",
+			"Sigma Station",
+			"Tau Station",
+			"Upsilon Station",
+      "Phi Station",
+      "Chi Station",
+      "Psi Station",
+      "Omega Station",
+		] ,
+		"spyNames": [
+			"T-800",
+			"T-X",
+			"T-1000",
+			"T-500",
+			"T-600",
+			"T-700",
+			"T-900",
+			"T-3000",
+			"T-XA",
+			"T-5000"
+		]
+		
+	}
+]
