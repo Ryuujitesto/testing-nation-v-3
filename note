@@ -1,3 +1,181 @@
 nation replace Thespiaux Medianet
 hyper space augur - HAC building
 valante apc - fortress
+ARSV-01 Loki (armored recon and support vehicle)
+Armament :
+- Light Beta-Delta Metal Tank armor mk 1
+- Sentinel sensor module (long range,stealth,mine)
+- Dispenser module Type Land(landmine,Decoy,observation orb)
+- Twin Alpha Pulse Laser Gun
+- Alpha Hyper Range Laser Gun
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha Rocket booster (upgrade)
+
+
+
+ICDV-01 Atlas ( Infantry Carrier and Defence Vehicle )
+Armament :
+- Medium Beta-Delta hybrid metal Tank armor mk 1
+- Carry 4 people
+- Twin Alpha Pulse Laser Gun
+- Alpha Laser Cannon
+- Alpha Rocket booster (upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+
+
+LAT-02 Ares ( Light Assault Tank )
+Armament :
+- Medium Beta-Delta hybrid metal Tank armor mk 1
+- Alpha-Epsilon Laser Cannon
+- Quad Alpha-Epsilon Pulse Laser Gun
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha Rocket booster (upgrade)
+
+
+HAT-02 Zeus ( Heavy Assault Tank ) 
+Armament :
+- Heavy Beta-Delta hybrid metal Tank armor mk 1
+- Alpha-Epsilon Particle Projectile Cannon
+- Quad Alpha-Epsilon Pulse Laser Gun
+- Alpha Rocket booster (upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+
+
+MADCV-01 Artemis ( Mobile Air Defence Combat Vehicle )
+Armament :
+- Light Beta-Delta hybrid metal Tank armor mk 1
+- Alpha-Epsilon Hyper Range Laser Cannon
+- Octo Alpha-Epsilon Hyper Range Laser Gun
+- Interceptor Pulse Laser Array
+- Predator sensor module (long range,targeting)
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha Rocket booster (upgrade)
+
+MACV-01 Odin ( Mobile Artillery Combat Vehicle )
+Armament :
+- Light Beta-Delta hybrid metal Tank armor mk 1
+- Alpha-Epsilon-Gamma Particle Projectile Hyper Range Artillery Cannon
+- Predator sensor module (long range,targeting)
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha Rocket booster (upgrade)
+
+ARSH-01 Heimdall (Armored Recon and Support Helicopter)
+Armament :
+- Light Beta-Delta hybrid metal Aircraft armor mk 1
+- Twin Epsilon Pulse Laser Gun
+- Interceptor Pulse Laser Array
+- Stalker sensor module (long range,stealth,submarine)
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+
+HACH-02 Freya (Heavy Assault and Carrier Helicopter)
+Armament :
+- Medium Beta-Delta hybrid metal Aircraft armor mk 1
+- Carry 4 people
+- Twin Alpha Laser Cannon
+- Twin Alpha Laser Gun
+- Twin Alpha Pulse Laser Gun
+- Interceptor Pulse Laser Array
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+
+ADFJ-01 Hermes (Air Dominance Fighter Jet) 
+Armament :
+- Medium Beta-Delta hybrid metal Aircraft armor mk 1
+- Alpha-Epsilon Hyper Range Laser Cannon
+- Twin Alpha-Epsilon Hyper Range Pulse Laser Gun
+- Interceptor Pulse Laser Array
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+- Predator sensor module (long range,targeting)
+
+GDFJ-01 Hades (Ground Dominance Fighter Jet)
+Armament :
+- Heavy Beta-Delta hybrid metal Aircraft armor mk 1
+- Alpha-Epsilon Particle Projectile Cannon
+- Quad Alpha-Epsilon Ultra Range Laser Gun
+- Interceptor Pulse Laser Array
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+- Predator sensor module (long range,targeting)
+
+
+HBJ-01 Thor (Heavy Bomber Jet)
+Armament :
+- Heavy Beta-Delta hybrid metal Aircraft armor mk 1
+- Alpha-Epsilon-Gamma Bomb Variant (Building Buster,Cluster Bomb,Torpedo Swarm)
+- Interceptor Pulse Laser Array
+- Shadow Stealth module (light,heat,electromagnetic)(upgrade)
+- Alpha-Epsilon Energy Shield (upgrade)
+
+ARSJ-01 Oceanus (Armored Recon and Support Jetboat) 
+Armament :
+- light Beta-Delta hybrid metal naval armor mk 1
+- Carry 4 people
+- Twin Alpha-Epsilon Pulse Gun
+- Twin Alpha-Epsilon Hyper Range Laser Gun
+- Twin Alpha Micro Torpedo Launcher
+- Alpha-Epsilon Torpedo Launcher
+- Dispenser module Type Water(Watermine,Decoy,observation orb)
+- Alpha-Epsilon Energy Shield (upgrade)
+
+
+SF-01 Nidhogg (Submarine Frigate)
+Armament :
+- Medium Beta-Delta hybrid metal naval armor mk 1
+- Alpha-Epsilon Hyper Range Laser Cannon
+- Twin Alpha-Epsilon Hyper Range Laser Cannon
+- Twin Alpha-Epsilon Hyper Range Pulse Laser Gun
+- Quad Alpha Micro Torpedo Launcher
+- Alpha-Epsilon Torpedo Launcher
+- Alpha-Epsilon Energy Shield (upgrade)
+
+BC-01 Poseidon (Battle Cruiser)
+Armament :
+- Heavy Beta-Delta hybrid metal naval armor mk 1
+- Twin Three Alpha-Epsilon Particle Projectile Hyper Range Naval Cannon
+- Octa Alpha-Epsilon Hyper Range Pulse Laser Gun
+- Quad Alpha-Epsilon Micro Torpedo Launcher
+- Twin Alpha-Epsilon Torpedo Launcher
+- Alpha-Epsilon Energy Shield (upgrade)
+
+SC-01 Jormungandr (Submarine Carrier)
+Armament :
+- Heavy Beta-Delta hybrid metal naval armor mk 1
+- Carry 6 plane
+- Carry Drone
+- Octa Alpha-Epsilon Micro Torpedo Launcher
+- Quad Alpha-Epsilon Torpedo Launcher
+- Alpha-Epsilon-Gamma Hyper Range Missile Launcher
+- Octa Alpha-Epsilon Hyper Range Pulse Laser Gun
+- Alpha-Epsilon-Gamma Particle Projectile Hyper Range Naval Artillery Cannon
+- Alpha-Epsilon Energy Shield (upgrade)
+
+Infantry Assault (Spartan)
+Armament :
+- Medium Beta-Delta hybrid metal infantry armor mk 1
+- Infantry Alpha Laser Gun
+- Infantry Alpha Rocket booster
+- Infantry Epsilon Energy Shield Barrier
+
+
+Armor Assault (Hela)
+Armament :
+- Heavy Beta-Delta hybrid metal infantry armor mk 1
+- Infantry Alpha Laser Cannon
+- Infantry Alpha Rocket booster
+- Infantry Interceptor Pulse Laser Array
+
+
+Special Assault (Fenrir)
+Armament :
+- Light Beta-Delta hybrid metal infantry armor mk 1
+- Infantry Alpha Hyper Range Laser Cannon
+- Infantry Alpha Rocket booster
+- Infantry Shadow Stealth module
+- Infantry Sentinel sensor module (long range,stealth,mine)
+
+Tech Engineer
+
+
+Armored Core (Raven)
