@@ -36,8 +36,8 @@
 		"name": "LRV-01 Loki",
 		"unitType": "Armored",
 		"movement": 5,
-		"strength": 12,
-		"cost": 75,
+		"strength": 14,
+		"cost": 85,
 		"requiredTech": "Portable Power Sources",
 		"upgradesTo": "Anti-Air Buggy",
 		"uniques": [
@@ -45,7 +45,8 @@
 			"[+1] Sight",
 			"No defensive terrain bonus",
 			"Can see invisible [Stealth Infantry] units",
-			"[+25]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Infantry] units> <when attacking>",
+			"[+50]% Strength <vs [Drone] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
