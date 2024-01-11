@@ -2,22 +2,20 @@
   {
 		"name": "Fortress",
 		"unitType": "Armored",
-   		"replaces": "Light Buggy",
+   		"replaces": "Combat Rover",
 		"uniqueTo": "Star Alliance",
 		"movement": 3,
 		"strength": 16,
 		"cost": 100,
-		"requiredTech": "Portable Power Sources",
+		"requiredTech": "Robotics",
 		"upgradesTo": "Colonial Armor",
 		"uniques": [
 			"Can move after attacking",
-			"No defensive terrain bonus",
+			"[+50]% Strength <when defending>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
 			"Can see invisible [Stealth Infantry] units",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"[+25]% Strength <vs [Armored] units>",
-			"[+100]% Strength <vs [Infantry] units>",
-			"Consumes [1] [Titanium]",
-		  	"Never appears as a Barbarian unit"
+			"Only available <in cities with a [Rover Storage]>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 10,
 		"attackSound": "machinegun",
