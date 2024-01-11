@@ -1,6 +1,6 @@
 [
   {
-		"name": "Fortress",
+		"name": "ACR-01 Atlas",
 		"unitType": "Armored",
    		"replaces": "Combat Rover",
 		"uniqueTo": "Star Alliance",
@@ -21,7 +21,7 @@
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Fortress",
+				"extraImage": "TileSets/FantasyHex/Units/ACR-01 Atlas",
 				"imageSize": 64
 			},
 			{
@@ -31,5 +31,38 @@
 				"text": "A light armored vehicle, designed to support infantry in urban combat."
 			}
 		]
-	}
+	},
+	{
+		"name": "LRV-01 Loki",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Portable Power Sources",
+		"upgradesTo": "Anti-Air Buggy",
+		"uniques": [
+			"Can move after attacking",
+			"[+1] Sight",
+			"No defensive terrain bonus",
+			"Can see invisible [Stealth Infantry] units",
+			"[+25]% Strength <vs [Infantry] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/LRV-01 Loki",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
+			}
+		]
+	},
 ]
