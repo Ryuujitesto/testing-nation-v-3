@@ -11,10 +11,10 @@
 		"upgradesTo": "Colonial Armor",
 		"uniques": [
 			"Can move after attacking",
-			"[+50]% Strength <when defending>",
-			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"Can see invisible [Stealth Infantry] units",
+			"[+50]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Drone] units>",
 			"Only available <in cities with a [Rover Storage]>",
+			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 10,
@@ -35,6 +35,8 @@
 	{
 		"name": "LRV-01 Loki",
 		"unitType": "Armored",
+		"replaces": "Light Buggy",
+		"uniqueTo": "Star Alliance",
 		"movement": 5,
 		"strength": 14,
 		"cost": 85,
@@ -45,8 +47,8 @@
 			"[+1] Sight",
 			"No defensive terrain bonus",
 			"Can see invisible [Stealth Infantry] units",
-			"[+50]% Strength <vs [Infantry] units> <when attacking>",
-			"[+50]% Strength <vs [Drone] units> <when attacking>",
+			"[+30]% Strength <vs [Infantry] units> <when attacking>",
+			"[+30]% Strength <vs [Drone] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -64,6 +66,68 @@
 			{
 				"text": "Lightweight and fast manned vehicles, they are commonly used for scouting or harassing purposes."
 			}
+		]
+	},
+	{
+		"name": "Frontier Rifleman",
+		"unitType": "Infantry",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Star Alliance",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Military Ballistics",
+		"upgradesTo": "Exoframe Soldier",
+		"uniques": [
+			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Frontier Rifleman",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "A better suited, better trained person armed with a better gun."
+			}
+		]
+	},
+	{
+		"name": "Frontier Grenadier",
+		"unitType": "Sniper",
+		"replaces": "Colony Marksman",
+		"uniqueTo": "Star Alliance",
+		"movement": 2,
+		"range": 2,
+		"strength": 9,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Frontier Armaments",
+		"upgradesTo": "Exoframe Sniper",
+		"uniques": [
+			"[+50]% Strength <vs [Armored] units> <when attacking>",
+			"[+50]% Strength <vs cities> <when attacking>",
+			"May upgrade to [Exoframe Sniper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Frontier Grenadier",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{ "text": "A soldier with a precise, long-ranged gun." }
 		]
 	},
 ]
