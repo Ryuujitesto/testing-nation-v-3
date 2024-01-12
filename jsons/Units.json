@@ -12,6 +12,8 @@
 		"uniques": [
 			"Can move after attacking",
 			"[+50]% Strength <vs [Infantry] units>",
+			"[+50]% Strength <vs [Sniper] units>",
+			"[+50]% Strength <vs [Stealth Infantry] units>",
 			"[+50]% Strength <vs [Drone] units>",
 			"Only available <in cities with a [Rover Storage]>",
 			"Consumes [1] [Titanium]",
@@ -49,17 +51,17 @@
 			"Can see invisible [Stealth Infantry] units",
 			"[+30]% Strength <vs [Infantry] units> <when attacking>",
 			"[+30]% Strength <vs [Drone] units> <when attacking>",
+			"[+30]% Strength <vs [Sniper] units> <when attacking>",
+			"[+30]% Strength <vs [Stealth Infantry] units> <when attacking>",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/LRV-01 Loki",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -74,22 +76,24 @@
 		"replaces": "Colony Rifleman",
 		"uniqueTo": "Star Alliance",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
+		"strength": 16,
+		"cost": 100,
 		"requiredTech": "Military Ballistics",
-		"upgradesTo": "Exoframe Soldier",
+		"upgradesTo": "Assault EXO",
 		"uniques": [
-			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"[+25]% Strength <vs [Infantry] units> <when attacking>",
+			"[+25]% Strength <vs [Sniper] units> <when attacking>",
+			"[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
+			"[+25]% Strength <when defending>",
+			"May upgrade to [Assault EXO] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot",
 		"civilopediaText": [
-			/*
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Frontier Rifleman",
 				"imageSize": 64
 			},
-			*/
 			{
 				"Separator": true
 			},
@@ -105,15 +109,15 @@
 		"uniqueTo": "Star Alliance",
 		"movement": 2,
 		"range": 2,
-		"strength": 9,
-		"rangedStrength": 12,
-		"cost": 75,
+		"strength": 10,
+		"rangedStrength": 15,
+		"cost": 100,
 		"requiredTech": "Frontier Armaments",
-		"upgradesTo": "Exoframe Sniper",
+		"upgradesTo": "Proto EXO",
 		"uniques": [
 			"[+50]% Strength <vs [Armored] units> <when attacking>",
-			"[+50]% Strength <vs cities> <when attacking>",
-			"May upgrade to [Exoframe Sniper] through ruins-like effects",
+			"[+25]% Strength <vs cities> <when attacking>",
+			"May upgrade to [Proto EXO] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "SniperShot",
@@ -128,6 +132,137 @@
 				"Separator": true
 			},
 			{ "text": "A soldier with a precise, long-ranged gun." }
+		]
+	},
+	{
+		"name": "Assault EXO",
+		"unitType": "Infantry",
+		"replaces": "Exoframe Soldier",
+		"uniqueTo": "Star Alliance",
+		"movement": 3,
+		"strength": 26,
+		"cost": 150,
+		"requiredTech": "Exoskeletons",
+		"upgradesTo": "Heavy EXO",
+		"uniques": [
+			"[+25]% Strength <vs [Infantry] units> <when attacking>",
+			"[+25]% Strength <vs [Sniper] units> <when attacking>",
+			"[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
+			"[+25]% Strength <when defending>",
+			"May upgrade to [Heavy EXO] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Assault EXO",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Enchanced by the addition of an external assistive frame, this infantry unit can now carry heavier armor and armaments."
+			}
+		]
+	},
+	{
+		"name": "Proto EXO",
+		"unitType": "Sniper",
+		"replaces": "Exoframe Sniper",
+		"uniqueTo": "Star Alliance",
+		"movement": 2,
+		"range": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"cost": 150,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Power EXO",
+		"uniques": [
+			"[+50]% Strength <vs [Armored] units> <when attacking>",
+			"[+50]% Strength <vs [Drone] units> <when attacking>",
+			"[+25]% Strength <vs cities> <when attacking>",
+			"May upgrade to [Power EXO] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SniperShot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Proto EXO",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their exosuit means they can carry a bigger, more powerful rifle by themselves."
+			}
+		]
+	},
+	{
+		"name": "Power EXO",
+		"unitType": "Sniper",
+		"replaces": "Laser Trooper",
+		"uniqueTo": "Star Alliance",
+		"movement": 3,
+		"range": 3,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 275,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"[+1] Sight",
+			"Can see over obstacles",
+			"[+25]% Strength <vs [Infantry] units> <when attacking>",
+			"[+25]% Strength <vs [Sniper] units> <when attacking>",
+			"[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
+			"[+25]% Strength <vs [Armored] units> <when attacking>",
+			"Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Power EXO",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "No longer reliant on inaccurate ballistics, this trooper's strength lie in the instantaneous, piercing, and nigh-soundless beam of concentrated light."
+			}
+		]
+	},
+	{
+		"name": "Heavy EXO",
+		"unitType": "Infantry",
+		"replaces": "Drop Trooper",
+		"uniqueTo": "Star Alliance",
+		"movement": 3,
+		"strength": 46,
+		"cost": 350,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"[+25]% Strength <vs [Infantry] units> <when attacking>",
+			"[+25]% Strength <vs [Sniper] units> <when attacking>",
+			"[+25]% Strength <vs [Stealth Infantry] units> <when attacking>",
+			"[+25]% Strength <when defending>",
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Heavy EXO",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
+			}
 		]
 	},
 ]
