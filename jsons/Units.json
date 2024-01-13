@@ -8,7 +8,7 @@
 		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Robotics",
-		"upgradesTo": "Colonial Armor",
+		"upgradesTo": "LAT-02 Ares",
 		"uniques": [
 			"Can move after attacking",
 			"[+50]% Strength <vs [Infantry] units>",
@@ -16,6 +16,7 @@
 			"[+50]% Strength <vs [Stealth Infantry] units>",
 			"[+50]% Strength <vs [Drone] units>",
 			"Only available <in cities with a [Rover Storage]>",
+			"Ignore terrain cost",
 			"Consumes [1] [Titanium]",
 			"Never appears as a Barbarian unit"
 		],
@@ -48,7 +49,6 @@
 			"Can move after attacking",
 			"[+1] Sight",
 			"No defensive terrain bonus",
-			"Can see invisible [Stealth Infantry] units",
 			"[+30]% Strength <vs [Infantry] units> <when attacking>",
 			"[+30]% Strength <vs [Drone] units> <when attacking>",
 			"[+30]% Strength <vs [Sniper] units> <when attacking>",
@@ -262,6 +262,257 @@
 			},
 			{
 				"text": "Augmented to the teeth with military-level cybernetics and equipped with back-mounted retro-thrusters, these highly-trained troopers can survive being dropped into hostile combat zones from low orbit and fight effectively right after."
+			}
+		]
+	},
+	{
+		"name": "LAT-02 Ares",
+		"unitType": "Armored",
+		"replaces": "Colonial Armor",
+		"uniqueTo": "Star Alliance",
+		"movement": 4,
+		"strength": 45,
+		"cost": 175,
+		"requiredTech": "Composite Armor",
+		"upgradesTo": "HAT-02 Zeus",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Infantry] units>",
+			"[+25]% Strength <vs [Drone] units>",
+			"[+25]% Strength <vs [Sniper] units>",
+			"[+25]% Strength <vs [Stealth Infantry] units>",
+			"[+25]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Promethine]",
+			"Only available <with [Promethine]>",
+			"May upgrade to [HAT-02 Zeus] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/LAT-02 Ares",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The cutting edge version of an old Earth fighting vehicle, armed with a large caliber cannon."
+			}
+		]
+	},
+	{
+		"name": "HAT-02 Zeus",
+		"unitType": "Armored",
+		"replaces": "Drop Tank",
+		"uniqueTo": "Star Alliance",
+		"movement": 3,
+		"strength": 60,
+		"cost": 500,
+		"requiredTech": "Stasis Fields",
+		"uniques": [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[+100]% Strength <vs [Armored] units>",
+			"[+25]% Strength <vs [Infantry] units>",
+			"[+25]% Strength <vs [Drone] units>",
+			"[+25]% Strength <vs [Sniper] units>",
+			"[+25]% Strength <vs [Stealth Infantry] units>",
+			"[+50]% Strength <when defending>",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [1] [Ulframite]",
+			"Only available <with [Ulframite]>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Drop Tank",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Equipped with a stasis field, these heavy vehicles could survive an orbital drop maneuver - as well as their crew. Their stasis fields also double as a makeshift shield."
+			}
+		]
+	},
+	{
+		"name": "ADV-01 Artemis",
+		"unitType": "Armored",
+		"replaces": "Laser Tank",
+		"uniqueTo": "Star Alliance",
+		"movement": 3,
+		"range": 3,
+		"strength": 35,
+		"rangedStrength": 40,
+		"cost": 200,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+250]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Drone] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <in cities with a [Mechanized Unit Facility]>",
+			"Consumes [2] [Promethine]",
+			"Only available <with [Promethine]>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "SingleLaser",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/ADV-01 Artemis",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Powerful laser weaponry mounted on a tank chassis. The lasers enable this unit to hit aerocraft as well."
+			}
+		]
+	},
+	{
+		"name": "ARD-01 Heimdall",
+		"unitType": "Helicopter",
+		"replaces": "Combat Drone",
+		"uniqueTo": "Star Alliance",
+		"movement": 6,
+		"range": 2,
+		"strength": 11,
+		"rangedStrength": 14,
+		"cost": 75,
+		"requiredTech": "Aerial Drones",
+		"uniques": [
+			"Drone",
+			"[+2] Sight",
+			"Can see over obstacles",
+			"Can see invisible [Stealth Infantry] units",
+			"Can see invisible [Submarine] units",
+			"Can see invisible [Xeno Stealth Water] units",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"All tiles cost 1 movement",
+			"Ignores Zone of Control",
+			"Unable to capture cities",
+			"[+50]% Strength <vs [Infantry] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/ARD-01 Heimdall",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Small, fast and highly annoying, they are nevertheless good against infantry."
+			}
+		]
+	},
+	{
+		"name": "LFJ-01 Hermes",
+		"unitType": "Aerocraft",
+		"replaces": "Aerojet",
+		"uniqueTo": "Star Alliance",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 150,
+		"requiredTech": "Aeronautics",
+		"upgradesTo": "Beam Fighter",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength when performing Air Sweep",
+			"[+50]% Damage when intercepting",
+			"Damage taken from interception reduced by [20]%",
+			"[+25]% Strength <vs [non-air] units>",
+			"[+125]% Strength <vs [Air] units>",
+			"[-100]% Strength <vs [Satellite] units> <when attacking>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Only available <with [Promethine]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "jetgun",
+		"civilopediaText": [
+			{
+				"text": "Manned atmospheric flyer equipped with anti-air missiles to achieve air superiority."
+			}
+		]
+	},
+	{
+		"name": "HFJ-01 Thor",
+		"unitType": "Aerocraft",
+		"replaces": "Beam Fighter",
+		"uniqueTo": "Star Alliance",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 150,
+		"requiredTech": "Lasers",
+		"uniques": [
+			"[+2] Sight",
+			"[100]% chance to intercept air attacks",
+			"[+25]% Strength when performing Air Sweep",
+			"[+25]% Damage when intercepting",
+			"Damage taken from interception reduced by [60]%",
+			"[+50]% Strength <vs [non-air] units>",
+			"[+150]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs cities>",
+			"[+100]% Strength <vs [Satellite] units> <with [70]% chance> <when attacking>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Consumes [1] [Promethine]",
+			"Only available <with [Promethine]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "RapidLaser",
+		"civilopediaText": [
+			{
+				"text": "Equipped with pinpoint precision laser weaponry and the targeting suite to go with it, they are a verified threat against aerial units - and sometimes even satellites."
+			}
+		]
+	},
+	{
+		"name": "HBD-01 Hades",
+		"unitType": "Aerocraft",
+		"replaces": "Strike Drone",
+		"uniqueTo": "Star Alliance",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 30,
+		"range": 6,
+		"interceptRange": 5,
+		"cost": 100,
+		"requiredTech": "Strike Drones",
+		"uniques": [
+			"Drone",
+			"[+150]% Strength <vs [non-air] units>",
+			"[-25]% Strength <vs [Air] units>",
+			"[+50]% Strength <vs cities>",
+			"Only available <in cities with a [Aerocraft Hangar]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "MissileLaunch",
+		"civilopediaText": [
+			{
+				"text": "Remote-controlled aerocraft designed to deliver missiles towards targets, they are vulnerable to other aerocraft."
 			}
 		]
 	},
